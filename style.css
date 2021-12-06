@@ -1,0 +1,139 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit";
+}
+
+.card {
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 0px 10px 15px;
+    padding: 20px;
+
+}
+
+.coin-detail {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.coin-price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.time-left {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.credit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.coin-detail span {
+    margin-left:  5px;
+}
+
+hr#line {
+    border-color: hsl(215, 51%, 70%);
+    margin: 10px 5px;
+    opacity: 0.2;
+}
+
+.image-card {
+    position: relative;
+    width: 100%;
+}
+
+#main-image {
+    border-radius: 20px;
+    width: 100%;
+}
+
+#main-image:hover {
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 20px;
+}
+
+.overlay-icon {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: none;
+}
+
+.image-card:hover .overlay {
+    opacity: 0.7;
+}
+
+.image-card:hover .overlay-icon {
+    display: block;
+}
+
+#coin-logo {
+    width: 15px;
+    height: 20px;
+}
+
+#author-image {
+    width: 40px;
+    height: 40px;
+}
+
+#author-name {
+    color: white;
+}
+
+#author-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h1 {
+    font-weight: 600;
+    color: white;
+    font-size: 1.5em;
+}
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+p#footnote {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
